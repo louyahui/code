@@ -1,0 +1,15 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "'Song'",
+  "license": "ISC",
+  "dependencies": {
+    "@types/iconv-lite": "0.0.1"
+  }
+}

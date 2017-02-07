@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE</title>
+    <script src="http://static.runoob.com/assets/vue/1.0.11/vue.min.js"></script>
+</head>
+<body>
+    <div id="app">
+      <p>{{ message + '官网地址：www.runoob.com' }}</p>
+      <input v-model="message">
+    </div>
+</body>
+<script type="text/javascript">
+    new Vue({
+      el: '#app',
+      data: {
+        message: '菜鸟教程!'
+      }
+    })
+</script>
+</html>
